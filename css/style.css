@@ -1,0 +1,120 @@
+#image {
+	width: 500px;
+	height: 500px;
+}
+
+img {
+	width: 500px;
+	height: 500px;
+}
+
+#head {
+	width: 300px;
+	height: 300px;
+	margin: 15px
+}
+
+video {
+	width: 350;
+	height: 350;
+	margin: 20;
+}
+
+#head1 {
+	text-align: center;
+	font-size: 100px;
+}
+
+table,th,td {
+	border: 1px solid black;
+}
+
+#main {
+	width: 230px;
+	height: 300px;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+}
+
+#main div {
+	flex: 1;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+}
+
+.city {
+	background-color: tomato;
+	color: white;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 20px;
+}
+
+#flex-container {
+	border: 1px solid black;
+	background-color: rgb(255, 230, 251);
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 30px;
+}
+
+#flex-container > div {
+	border: 1px solid black;
+	width: 10%;
+	aspect-ratio: 2;
+	padding: 10px;
+	background-color: lightgreen;
+}
+
+.newspaper {
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 4px double #ff00ff;
+}
+
+.head {
+	column-count: 3;
+	column-gap: 40px;
+	column-rule-style: outset;
+	column-rule-width: 10px;
+}
+
+#head1, #head2, #head3 {
+	padding: 40px 20px;
+	background-color: lightgreen;
+}
+
+#head4 {
+	border-inline: 5px solid red;
+}
+
+#head5 {
+	border-inline: 4px dotted blue;
+}
+
+#head3 {
+	border-inline: double;
+}
+
+.div1 {
+	position: relative;
+	height: 150px;
+	width: 150px;
+	margin-left: 60px;
+	border: 1px solid blue;
+	perspective: 100px;
+	perspective-origin: left;
+}
+
+.div2, .div4, .div6 {
+	padding: 50px;
+	position: absolute;
+	border: 1px solid black;
+	background-color: red;
+	background: rgba(100, 100, 100, 0.5);
+	transform-style: preserve-3d;
+	transform: rotateX(45deg);
+}
+
